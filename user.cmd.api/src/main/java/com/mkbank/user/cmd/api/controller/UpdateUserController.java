@@ -35,7 +35,7 @@ public class UpdateUserController {
 
             return new ResponseEntity<>(new BaseResponse("User successfully updated!"), HttpStatus.OK);
         } catch (Exception e) {
-            var safeErrorMessage = "Error while processing update user request for id: " + command.getId();
+            var safeErrorMessage = "Error while processing update user request for id: " + id;
             System.out.println(e.toString());
             return new ResponseEntity<>(new BaseResponse(safeErrorMessage), HttpStatus.INTERNAL_SERVER_ERROR);
         }
