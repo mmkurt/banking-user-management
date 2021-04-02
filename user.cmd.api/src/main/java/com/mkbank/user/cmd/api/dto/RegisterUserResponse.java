@@ -1,5 +1,7 @@
 package com.mkbank.user.cmd.api.dto;
 
+import com.mkbank.user.core.dto.BaseResponse;
+
 public class RegisterUserResponse extends BaseResponse {
 
     private String id;

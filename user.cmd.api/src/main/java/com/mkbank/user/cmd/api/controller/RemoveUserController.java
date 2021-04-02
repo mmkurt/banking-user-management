@@ -1,7 +1,7 @@
 package com.mkbank.user.cmd.api.controller;
 
 import com.mkbank.user.cmd.api.command.RemoveUserCommand;
-import com.mkbank.user.cmd.api.dto.BaseResponse;
+import com.mkbank.user.core.dto.BaseResponse;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.mkbank.user.cmd.api.dto;
+package com.mkbank.user.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
